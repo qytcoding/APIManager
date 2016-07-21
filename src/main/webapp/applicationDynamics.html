@@ -1,0 +1,219 @@
+<!doctype html>
+<html class="no-js">
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="description" content="">
+  <meta name="keywords" content="">
+  <meta name="viewport"
+        content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+  <title>应用动态</title>
+
+  <!-- Set render engine for 360 browser -->
+  <meta name="renderer" content="webkit">
+
+  <!-- No Baidu Siteapp-->
+  <meta http-equiv="Cache-Control" content="no-siteapp"/>
+
+  <link rel="icon" type="image/png" href="{{assets}}i/favicon.png">
+
+  <!-- Add to homescreen for Chrome on Android -->
+  <meta name="mobile-web-app-capable" content="yes">
+  <link rel="icon" sizes="192x192" href="{{assets}}i/app-icon72x72@2x.png">
+
+  <!-- Add to homescreen for Safari on iOS -->
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black">
+  <meta name="apple-mobile-web-app-title" content="Amaze UI"/>
+  <link rel="apple-touch-icon-precomposed" href="assets/i/app-icon72x72@2x.png">
+
+  <!-- Tile icon for Win8 (144x144 + tile color) -->
+  <meta name="msapplication-TileImage" content="assets/i/app-icon72x72@2x.png">
+  <meta name="msapplication-TileColor" content="#0e90d2">
+
+  <link rel="stylesheet" href="assets/css/amazeui.min.css">
+  <script src="assets/js/jquery.min.js"></script>
+  <script src="assets/js/amazeui.min.js"></script>
+<style>
+.center{
+ 	/* border: 1px solid #ddd; */
+ 	max-width:1200px;
+ 	margin-left: auto;
+ 	margin-right: auto;
+ 	/* margin-top:50px; */
+ 	min-height:700px;
+}  
+	
+</style>
+<script type="text/javascript">  
+ 
+</script>
+
+</head>
+<body>
+<header class="am-topbar am-topbar-inverse">
+  <img src="images/api.png" style="float:left;padding-left: 20px;padding-right: 20px;">
+	<div class="am-collapse am-topbar-collapse" id="doc-topbar-collapse" style="float: left;">
+	    <ul class="am-nav am-nav-pills am-topbar-nav">
+	      <li class="am-dropdown" data-am-dropdown>
+	        <a class="am-dropdown-toggle" data-am-dropdown-toggle href="">
+	           <span class="am-icon-caret-down" style="color: antiquewhite;">qyt</span>
+	        </a>
+	        <ul class="am-dropdown-content">
+	          <li><a href="#">团队统计</a></li>
+	          <li><a href="#">团队成员</a></li>
+	          <li><a href="#">切换团队</a></li>
+	        </ul>
+	      </li>
+	    </ul>
+  	</div>
+  	<img src="images/用户2.png" style="float:right;padding-top: 10px;padding-right: 30px;padding-left: 30px;">
+  	<img src="images/动态.png" style="float:right;padding-top: 15px;">	
+</header>
+<div class="center">
+	<div style="border: 1px solid #ddd;background: #fff;">
+		<div class="center_top" style="margin-top:20px;margin-left:30px">
+			<span style="float: left;margin-top: 12px;margin-left: 20px;margin-right: 20px;font-size:18px">筛选应用:</span>
+			<div class="am-collapse am-topbar-collapse" id="doc-topbar-collapse" style="float: left;">
+		    <ul class="am-nav am-nav-pills am-topbar-nav">
+		      <li class="am-dropdown" data-am-dropdown>
+		        <a class="am-dropdown-toggle" data-am-dropdown-toggle href="">
+		           <span class="am-icon-caret-down" style="color: black;">所有应用</span>
+		        </a>
+		        <ul class="am-dropdown-content">
+		          <li><a href="#">所有应用</a></li>
+		          <li><a href="#">应用1</a></li>
+		          <li><a href="#">应用2</a></li>
+		        </ul>
+		      </li>
+		    </ul>
+	  		</div>
+	  		<span style="float: left;margin-top: 12px;margin-left: 20px;margin-right: 20px;font-size:18px">筛选成员:</span>
+			<div class="am-collapse am-topbar-collapse" id="doc-topbar-collapse">
+		    <ul class="am-nav am-nav-pills am-topbar-nav">
+		      <li class="am-dropdown" data-am-dropdown>
+		        <a class="am-dropdown-toggle" data-am-dropdown-toggle href="">
+		           <span class="am-icon-caret-down" style="color: black;">所有成员</span>
+		        </a>
+		        <ul class="am-dropdown-content">
+		          <li><a href="#">所有成员</a></li>
+		          <li><a href="#">成员1</a></li>
+		          <li><a href="#">成员2</a></li>
+		        </ul>
+		      </li>
+		    </ul>
+	  		</div>
+		</div>
+	
+		<div class="dynamicsbox">
+			<div class="dynamictitle" style="height:54px;margin-left:40px;margin-top: 20px;">
+				<span class="date" style="background: #fff;display: inline-block;font-size: 12px;float: left;color: #999;width: 54px;text-align: center;border-radius: 50%;height: 54px;border: 2px solid #ddd;margin-right:20px"><p style="margin-bottom: 0px;margin-top: 5px;">07/18</p>星期一</span>
+				<span style="line-height: 54px;">应用1</span>
+			</div>
+			<div class="dynamiccontent" style="margin-left:110px;height:80px">
+				<span style="float:left;line-height: 80px;">15:52</span>
+				<em style="float:left">
+					<img alt="" src="images/用户.png">
+				</em>
+				<div class="info" style="padding-top: 27px;padding-bottom: 27px;">
+					<strong>2423892838</strong>
+	                                        修改了: test的<a href="http://www.easyapi.com/test1123?apiId=12601" target="_blank">用户数量接口</a>接口
+				</div>
+			</div>
+			<div class="dynamiccontent" style="margin-left:110px;height:80px">
+				<span style="float:left;line-height: 80px;">12:03</span>
+				<em style="float:left">
+					<img alt="" src="images/用户.png">
+				</em>
+				<div class="info" style="padding-top: 27px;padding-bottom: 27px;">
+					<strong>2423892838</strong>
+	                                        修改了: test的<a href="http://www.easyapi.com/test1123?apiId=12601" target="_blank">用户数量接口</a>接口
+				</div>
+			</div>
+			<div class="dynamiccontent" style="margin-left:110px;height:80px">
+				<span style="float:left;line-height: 80px;">10:36</span>
+				<em style="float:left">
+					<img alt="" src="images/用户.png">
+				</em>
+				<div class="info" style="padding-top: 27px;padding-bottom: 27px;">
+					<strong>2423892838</strong>
+	                                        修改了: test的<a href="http://www.easyapi.com/test1123?apiId=12601" target="_blank">用户接口</a>接口
+				</div>
+			</div>
+		</div>
+		<div class="dynamicsbox">
+			<div class="dynamictitle" style="height:54px;margin-left:40px;margin-top: 20px;">
+				<span class="date" style="background: #fff;display: inline-block;font-size: 12px;float: left;color: #999;width: 54px;text-align: center;border-radius: 50%;height: 54px;border: 2px solid #ddd;margin-right:20px"><p style="margin-bottom: 0px;margin-top: 5px;">07/15</p>星期五</span>
+				<span style="line-height: 54px;">应用1</span>
+			</div>
+			<div class="dynamiccontent" style="margin-left:110px;height:80px">
+				<span style="float:left;line-height: 80px;">15:52</span>
+				<em style="float:left">
+					<img alt="" src="images/用户.png">
+				</em>
+				<div class="info" style="padding-top: 27px;padding-bottom: 27px;">
+					<strong>2423892838</strong>
+	                                        修改了: test的<a href="http://www.easyapi.com/test1123?apiId=12601" target="_blank">用户数量接口</a>接口
+				</div>
+			</div>
+			<div class="dynamiccontent" style="margin-left:110px;height:80px">
+				<span style="float:left;line-height: 80px;">12:03</span>
+				<em style="float:left">
+					<img alt="" src="images/用户.png">
+				</em>
+				<div class="info" style="padding-top: 27px;padding-bottom: 27px;">
+					<strong>2423892838</strong>
+	                                        修改了: test的<a href="http://www.easyapi.com/test1123?apiId=12601" target="_blank">用户数量接口</a>接口
+				</div>
+			</div>
+			<div class="dynamiccontent" style="margin-left:110px;height:80px">
+				<span style="float:left;line-height: 80px;">10:36</span>
+				<em style="float:left">
+					<img alt="" src="images/用户.png">
+				</em>
+				<div class="info" style="padding-top: 27px;padding-bottom: 27px;">
+					<strong>2423892838</strong>
+	                                        修改了: test的<a href="http://www.easyapi.com/test1123?apiId=12601" target="_blank">用户接口</a>接口
+				</div>
+			</div>
+		</div>
+		<div class="dynamicsbox">
+			<div class="dynamictitle" style="height:54px;margin-left:40px;margin-top: 20px;">
+				<span class="date" style="background: #fff;display: inline-block;font-size: 12px;float: left;color: #999;width: 54px;text-align: center;border-radius: 50%;height: 54px;border: 2px solid #ddd;margin-right:20px"><p style="margin-bottom: 0px;margin-top: 5px;">07/18</p>星期一</span>
+				<span style="line-height: 54px;">应用1</span>
+			</div>
+			<div class="dynamiccontent" style="margin-left:110px;height:80px">
+				<span style="float:left;line-height: 80px;">15:52</span>
+				<em style="float:left">
+					<img alt="" src="images/用户.png">
+				</em>
+				<div class="info" style="padding-top: 27px;padding-bottom: 27px;">
+					<strong>2423892838</strong>
+	                                        修改了: test的<a href="http://www.easyapi.com/test1123?apiId=12601" target="_blank">用户数量接口</a>接口
+				</div>
+			</div>
+			<div class="dynamiccontent" style="margin-left:110px;height:80px">
+				<span style="float:left;line-height: 80px;">12:03</span>
+				<em style="float:left">
+					<img alt="" src="images/用户.png">
+				</em>
+				<div class="info" style="padding-top: 27px;padding-bottom: 27px;">
+					<strong>2423892838</strong>
+	                                        修改了: test的<a href="http://www.easyapi.com/test1123?apiId=12601" target="_blank">用户数量接口</a>接口
+				</div>
+			</div>
+			<div class="dynamiccontent" style="margin-left:110px;height:80px">
+				<span style="float:left;line-height: 80px;">10:36</span>
+				<em style="float:left">
+					<img alt="" src="images/用户.png">
+				</em>
+				<div class="info" style="padding-top: 27px;padding-bottom: 27px;">
+					<strong>2423892838</strong>
+	                                        修改了: test的<a href="http://www.easyapi.com/test1123?apiId=12601" target="_blank">用户接口</a>接口
+				</div>
+			</div>
+		</div>	
+	</div>
+</div>
+</body>
+</html>

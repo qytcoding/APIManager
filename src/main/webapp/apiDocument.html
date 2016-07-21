@@ -1,0 +1,132 @@
+<!doctype html>
+<html class="no-js">
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="description" content="">
+<meta name="keywords" content="">
+<meta name="viewport"
+	content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+<title>文档</title>
+
+<!-- Set render engine for 360 browser -->
+<meta name="renderer" content="webkit">
+
+<!-- No Baidu Siteapp-->
+<meta http-equiv="Cache-Control" content="no-siteapp" />
+
+<link rel="icon" type="image/png" href="{{assets}}i/favicon.png">
+
+<!-- Add to homescreen for Chrome on Android -->
+<meta name="mobile-web-app-capable" content="yes">
+<link rel="icon" sizes="192x192" href="{{assets}}i/app-icon72x72@2x.png">
+
+<!-- Add to homescreen for Safari on iOS -->
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="black">
+<meta name="apple-mobile-web-app-title" content="Amaze UI" />
+<link rel="apple-touch-icon-precomposed"
+	href="assets/i/app-icon72x72@2x.png">
+
+<!-- Tile icon for Win8 (144x144 + tile color) -->
+<meta name="msapplication-TileImage"
+	content="assets/i/app-icon72x72@2x.png">
+<meta name="msapplication-TileColor" content="#0e90d2">
+
+<link rel="stylesheet" href="assets/css/amazeui.min.css">
+<script src="assets/js/jquery.min.js"></script>
+<script src="assets/js/amazeui.min.js"></script>
+<style>
+.center{
+	max-width:1200px;
+	margin-left: auto;
+ 	margin-right: auto;
+}
+</style>
+<script type="text/javascript">  
+ 
+</script>
+
+</head>
+<body>
+	<header class="am-topbar am-topbar-inverse">
+  	<span style="line-height: 50px;padding-left: 60px;padding-right: 60px;">应用名</span>
+  	<button type="button" class="am-btn am-btn-default am-radius" style="background-color: #0e90d2;border-color: #0e90d2;color: #eee;padding-top:14px;padding-bottom:18px">管理接口文档</button>
+  	<img src="images/用户2.png" style="float:right;padding-top: 10px;padding-right: 30px;padding-left: 30px;">	
+	</header>
+
+	<div class="center">
+		<div class="am-g">
+			<div class="am-u-sm-3">
+				<h3>所有类目</h3>
+				<p>分类1</p>
+				<p>分类2</p>
+				<p>分类3</p>
+			</div>
+			<div class="am-u-sm-9">
+				<div>
+					<h2>接口1</h2>
+					<p>
+						接口描述:<span style = " margin-left: 10px;">xxxx</span>
+					</p>
+					<p>
+						数据格式:<span style = " margin-left: 10px;">JSON</span>
+					</p>
+					<p>
+						请求方式:<span style = " margin-left: 10px;">GET</span>
+					</p>
+					<p>
+						接口URL:<span style = " margin-left: 10px;">xxxx</span>
+					</p>
+				</div>
+				
+				<div>
+				<p>参数说明</p>
+				<hr>
+				
+				<table class="am-table am-table-bordered">
+				 <thead style="background: #0e90d2;">
+					<tr>
+						<th>名称</th>
+						<th>类型</th>
+						<th>说明</th>
+						<th>是否必填</th>
+						<th>示例</th>
+						<th>默认值</th>
+					</tr>
+					</thead>
+					<tbody>
+						<tr>
+						<td>page</td>
+						<td>int</td>
+						<td></td>
+						<td>是</td>
+						<td>3</td>
+						<td>2</td>
+						</tr>
+					</tbody>
+					
+					</table>
+				</div>
+
+				<div class="am-tabs" data-am-tabs>
+					<ul class="am-tabs-nav am-nav am-nav-tabs">
+						<li class="am-active"><a href="#tab1">响应示例</a></li>
+						<li><a href="#tab2">异常示例</a></li>
+					</ul>
+
+					<div class="am-tabs-bd">
+						<div class="am-tab-panel am-fade am-in am-active" id="tab1">
+							置身人群中<br>你只需要被淹没 享受 沉默<br>退到人群后<br>你只需给予双手 微笑 等候
+						</div>
+						<div class="am-tab-panel am-fade" id="tab2">
+							走在忠孝东路<br>徘徊在茫然中<br>在我的人生旅途<br>选择了多少错误
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+</body>
+</html>

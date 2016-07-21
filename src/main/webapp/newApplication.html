@@ -1,0 +1,162 @@
+<!doctype html>
+<html class="no-js">
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="description" content="">
+  <meta name="keywords" content="">
+  <meta name="viewport"
+        content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+  <title>创建新应用</title>
+
+  <!-- Set render engine for 360 browser -->
+  <meta name="renderer" content="webkit">
+
+  <!-- No Baidu Siteapp-->
+  <meta http-equiv="Cache-Control" content="no-siteapp"/>
+
+  <link rel="icon" type="image/png" href="{{assets}}i/favicon.png">
+
+  <!-- Add to homescreen for Chrome on Android -->
+  <meta name="mobile-web-app-capable" content="yes">
+  <link rel="icon" sizes="192x192" href="{{assets}}i/app-icon72x72@2x.png">
+
+  <!-- Add to homescreen for Safari on iOS -->
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black">
+  <meta name="apple-mobile-web-app-title" content="Amaze UI"/>
+  <link rel="apple-touch-icon-precomposed" href="assets/i/app-icon72x72@2x.png">
+
+  <!-- Tile icon for Win8 (144x144 + tile color) -->
+  <meta name="msapplication-TileImage" content="assets/i/app-icon72x72@2x.png">
+  <meta name="msapplication-TileColor" content="#0e90d2">
+
+  <link rel="stylesheet" href="assets/css/amazeui.min.css">
+  <script src="assets/js/jquery.min.js"></script>
+  <script src="assets/js/amazeui.min.js"></script>
+<style>
+.center{
+ /* 	border: 1px solid #ddd; */
+ 	max-width:1200px;
+/*  	height:700px; */
+ 	margin-left: auto;
+ 	margin-right: auto;
+/*  	margin-top:50px; */
+}
+	
+</style>
+<script type="text/javascript">  
+ 
+</script>
+
+</head>
+<body>
+<header class="am-topbar am-topbar-inverse">
+  <img src="images/api.png" style="float:left;padding-left: 20px;padding-right: 20px;">
+	<div class="am-collapse am-topbar-collapse" id="doc-topbar-collapse" style="float: left;">
+	    <ul class="am-nav am-nav-pills am-topbar-nav">
+	      <li class="am-dropdown" data-am-dropdown>
+	        <a class="am-dropdown-toggle" data-am-dropdown-toggle href="">
+	           <span class="am-icon-caret-down" style="color: antiquewhite;">qyt</span>
+	        </a>
+	        <ul class="am-dropdown-content">
+	          <li><a href="#">团队统计</a></li>
+	          <li><a href="#">团队成员</a></li>
+	          <li><a href="#">切换团队</a></li>
+	        </ul>
+	      </li>
+	    </ul>
+  	</div>
+  	<img src="images/用户2.png" style="float:right;padding-top: 10px;padding-right: 30px;padding-left: 30px;">
+  	<img src="images/动态.png" style="float:right;padding-top: 15px;">	
+</header>
+<div class="center">
+	<div style="border: 1px solid #ddd;background: #fff;">
+		<div class="title" style="border-bottom: 1px solid #ddd;padding: 15px 15px;">
+		<h3 style="font-weight: normal;margin: 0;padding: 0;font-size:24px">创建新应用</h3>
+	</div>
+	<div class="am-g" style="padding-top:50px;">
+		<div class="am-u-sm-6">
+			<div class="am-u-sm-3">
+				<img class="am-thumbnail am-radius" src="images/添加.png" style="border: 0px;width: 98px;height: 98px;border-radius: 15px;float: left;margin-right: 10px;"/>
+			</div>
+  			<div class="am-u-sm-9" style="padding-left:0px">
+  				<lable>选择应用图标</lable>
+  				<br>
+  				<a>选择图片</a>
+  				<p style="display: block;margin-top: 0px;margin-bottom: 0px;color: #737373;">你可以选择png/jpg图片(200*200)作为应用图标.</p>
+  			</div>
+		</div>
+	</div>
+	<div class="am-g" style="padding-bottom:20px;">
+		<div class="am-u-sm-6">
+			<div class="am-u-sm-3" style="text-align:center;">
+				<lable style="line-height:37px">应用名称</lable>
+			</div>
+  			<div class="am-u-sm-9" style="padding-left:0px">
+  				<input type="text" class="am-form-field am-radius" id="doc-ipt-3" placeholder="请输入应用名称">
+  			</div>
+		</div>
+	</div>
+	<div class="am-g" style="padding-bottom:20px;">
+		<div class="am-u-sm-6">
+			<div class="am-u-sm-3" style="text-align:center;">
+				<lable style="line-height:37px">应用URL</lable>
+			</div>
+  			<div class="am-u-sm-9" style="padding-left:0px">
+  				<div class="am-input-group">
+					  <span class="am-input-group-label">http://localhost:8080/APImanager/</span>
+					  <input type="text" class="am-form-field" placeholder="请输入英文字母" style="font-size: 15px;">
+				</div>
+  			</div>
+		</div>
+	</div>
+	<div class="am-g" style="padding-bottom:20px;">
+		<div class="am-u-sm-6">
+			<div class="am-u-sm-3" style="text-align:center;">
+				<lable style="line-height:37px">访问权限</lable>
+			</div>
+  			<div class="am-u-sm-9" style="padding-left:0px;padding-top:4px">
+  				<div class="am-form-group">
+				      <label class="am-radio-inline" style="border: 1px solid #ddd;border-radius: 5px;font-weight: normal;padding: 3px 15px;float: left;margin-right: 10px;">
+				        <input type="radio"  value="" name="docInlineRadio" style="margin-left:0px;margin-right:2px">公开
+				      </label>
+				      <label class="am-radio-inline" style="border: 1px solid #ddd;border-radius: 5px;font-weight: normal;padding: 3px 15px;float: left;margin-right: 10px;">
+				        <input type="radio" name="docInlineRadio" style="margin-left:0px;margin-right:2px">私有
+				      </label>
+    			</div>
+  			</div>
+		</div>
+	</div>
+	<div class="am-g" style="padding-bottom:20px;">
+		<div class="am-u-sm-6">
+			<div class="am-u-sm-3" style="text-align:center;">
+				<lable style="line-height:37px">接口根地址</lable>
+			</div>
+  			<div class="am-u-sm-9" style="padding-left:0px">
+  				<input type="text" class="am-form-field am-radius" id="doc-ipt-3" placeholder="http://api.xxx.com">
+  			</div>
+		</div>
+	</div>
+	<div class="am-g" style="padding-bottom:20px;">
+		<div class="am-u-sm-6">
+			<div class="am-u-sm-3" style="text-align:center;">
+				<lable style="line-height:37px">应用描述</lable>
+			</div>
+  			<div class="am-u-sm-9" style="padding-left:0px">
+			      <textarea class="" rows="5" id="doc-ta-1" style="width:406px"></textarea>
+  			</div>
+		</div>
+	</div>
+	<div class="am-g" style="padding-bottom:20px;">
+		<div class="am-u-sm-6">
+			<div class="am-u-sm-3"></div>
+  			<div class="am-u-sm-9" style="padding-left:0px">
+			      <button type="button" class="am-btn am-btn-primary am-round">提交</button>
+  			</div>
+		</div>
+	</div>
+	</div>
+</div>
+</body>
+</html>
